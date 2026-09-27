@@ -1,10 +1,8 @@
 package com.gpcoder.multicast;
- 
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
- 
 public class MulticastSender {
  
     public static final String GROUP_ADDRESS = "224.0.0.1";
