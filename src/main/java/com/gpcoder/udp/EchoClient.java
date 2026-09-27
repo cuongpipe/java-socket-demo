@@ -1,5 +1,4 @@
 package com.gpcoder.udp;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,11 +7,10 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 public class EchoClient {
-
     public final static String SERVER_IP = "127.0.0.1";
     public final static int SERVER_PORT = 7; // Cổng mặc định của Echo Server
     public final static byte[] BUFFER = new byte[4096]; // Vùng đệm chứa dữ liệu cho gói tin nhận
-
+    
     public static void main(String[] args) {
         DatagramSocket ds = null;
         try {
